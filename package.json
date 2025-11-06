@@ -1,0 +1,17 @@
+{
+  "name": "animango",
+  "version": "1.0.0",
+  "description": "Anime & manga tracker (Electron + Jikan API)",
+  "main": "main.js",
+  "private": true,
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "electron .",
+    "pack:win": "electron-packager . Animango --platform=win32 --arch=x64 --out=dist --overwrite --ignore=\"^/(dist|node_modules/\\.cache)$\""
+  },
+  "devDependencies": {
+    "electron": "^39.0.0",
+    "electron-packager": "^17.1.2"
+  }
+}
